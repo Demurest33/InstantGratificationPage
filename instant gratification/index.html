@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>incio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="cosas.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".menu_boton").click(function(){
+            $(this).hide();
+            $(".menu").show();
+    });
+
+    $("#exitmenu").click(function(){
+        $(".menu").hide();
+        $(".menu_boton").show();
+    });
+
+    $("#el_fitness").click(function(){
+        $("#fitness_items").slideDown("slow");
+        $("#fitness_items_link").slideDown("slow");
+    });
+
+    $("#fitness_items_hide").click(function(){
+        $("#fitness_items").slideUp();
+        $("#fitness_items_link").slideUp();
+    });
+
+    $("#placentero").click(function(){
+        $("#placentero_items").slideDown("slow");
+        $("#placentero_items_link").slideDown("slow");
+    });
+
+    $("#placentero_items_hide").click(function(){
+        $("#placentero_items").slideUp();
+        $("#placentero_items_link").slideUp();
+    });
+
+    $("#feelsbad").click(function(){
+        $("#feelsbad_items").slideDown("slow");
+        $("#feelsbad_items_link").slideDown("slow");
+    });
+
+    $("#feelsbad_items_hide").click(function(){
+        $("#feelsbad_items").slideUp();
+        $("#feelsbad_items_link").slideUp();
+    });
+
+});
+</script>
+</head>
+<body>
+    <div class="pagina">
+
+        <div class="menu">
+            <div class="menu_cont" class="centro">
+                <strong style="text-align: center; font-size: larger; color: rgb(179, 162, 67);" id="exitmenu">Menú</strong>
+                <hr>
+                <div class="centro" style="margin-top: 5px;">
+                    <div class="borde">
+                        <a href="index.html">Inicio</a>
+                    </div>
+                    
+                    <div class="borde" >
+                        <h2 id="el_fitness" style="font-size: 18px;" class="page">El chico fitness</h2>
+                    </div>
+                    <div class="cajon_item" id="fitness_items">
+                        <div class="hide">
+                            <p id="fitness_items_hide" style="font-size: 14px;">Ocultar</p>
+                        </div>
+
+                    </div>
+
+                    <div id="fitness_items_link" class="cajon_item">
+                        <ul>
+                            <li><a href="el chico fitness.html"><p style="font-size: 16px;">El chico fitness</p></a></li><hr>
+                            <li><a href="el%20chico%20fitness.html#lomejor"><p style="font-size: 16px;">Lo mejor de</p></a></li>
+                            <li><a href="el%20chico%20fitness.html#citas"><p style="font-size: 16px;">Citas</p></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="borde" >
+                        <h2 id="placentero" style="font-size: 18px;" class="page">^‿^</h2>
+                    </div>
+                    <div class="cajon_item" id="placentero_items">
+                        <div class="hide">
+                            <p id="placentero_items_hide" style="font-size: 14px;">Ocultar</p>
+                        </div>
+
+                    </div>
+
+                    <div id="placentero_items_link" class="cajon_item">
+                        <ul>
+                            <li><a href="placentero.html"><p style="font-size: 16px;">Placentero</p></a></li><hr>
+                            <li><a href="placentero.html#reload"><p style="font-size: 16px;">Reload</p></a></li>
+                            <li><a href="placentero.html#stupidkids"><p style="font-size: 16px;">Stupid kids</p></a></li>
+                            <li><a href="placentero.html#irl"><p style="font-size: 16px;">irl</p></a></li>
+                            <li><a href="placentero.html#animales"><p style="font-size: 16px;">Animales</p></a></li>
+                            <li><a href="placentero.html#musical"><p style="font-size: 16px;">Musical</p></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="borde" >
+                        <h2 id="feelsbad" style="font-size: 18px;" class="page">ᗒ ͟ʖᗕ</h2>
+                    </div>
+                    <div class="cajon_item" id="feelsbad_items">
+                        <div class="hide">
+                            <p id="feelsbad_items_hide" style="font-size: 14px;">Ocultar</p>
+                        </div>
+
+                    </div>
+
+                    <div id="feelsbad_items_link" class="cajon_item">
+                        <ul>
+                            <li><a href="feelsbad.html"><p style="font-size: 16px;">Feels bad</p></a></li><hr>
+                            <li><a href="feelsbad.html#pain1"><p style="font-size: 16px;">All your pain</p></a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="menu_boton">
+
+        </div>
+
+        <div class="pagina_cont">
+            <div class="fondo">
+                <div class="titulo">
+                    <a href=""><img src="img/instant gratification.png" alt="" style="max-height: 100%; max-width: 100%;"></a>
+                </div>
+            </div>
+
+            
+            <div class="parrafo_largo">
+                <div style="text-align: justify; /*background-color: burlywood;*/ width: 90%;">
+                    <p>
+                        Todos tenemos días malos o pasamos por momentos incomodos en los que nos gustaría que la tierra nos tragara. <br>
+                        Y aunque no podamos librarte haber hecho el ridículo. Lo que si te ofrecemos es que tomes la píldora y te des un paseo por nuestras galerías. Aquí se encuentran pequeños trozos de felicidad a tu disposición para desconectar aunque sea 30 segundos de la realidad que te haya tocado enfrentar. <br>
+                        Y también para no prestar atención a clase, claro que si.
+
+                        </p>
+                </div>
+            </div>
+
+            <div class="caja_pv">
+                <div class="parrafo" >
+
+                    <p>
+                        Te pedimos por favor que tengas conciencia y no siempre busques la opción que parezca más cómoda solo por ser más fácil y no querer poner siquiera un mínimo de esfuerzo y en su lugar procrastinar hasta el último minuto. No lo recomendamos pero tampoco es como si le fueras a hacer caso a una página que ofrece memes. <br>
+                        Bueno con eso nos limpiamos las manos. Que te diviertas.
+                        
+                    
+                    </p>
+                </div>
+
+                <div class="video" style="width: 60%;" >
+                    <img src="img/the monkey.png" alt="" width="100%" height="100%" style="max-height: 200px;">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="bottom">    
+    </div>
+
+</body>
+</html>

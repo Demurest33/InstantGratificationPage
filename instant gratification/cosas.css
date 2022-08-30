@@ -1,0 +1,112 @@
+p{
+    color: blanchedalmond;
+    font-size:22px;
+    text-align: center;
+}
+
+a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+a p:hover{
+    color: tomato;
+}
+
+li{
+    font-size: 0;
+}
+
+.parrafo_largo{
+    width: 100%;
+    /*background-color: rgb(20, 220, 203);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    min-height: 200px;
+    margin-bottom: 40px;
+}
+
+.caja_pv{
+    width: 100%;
+    /*background-color: crimson;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    height: 280px;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+
+.video{
+    /*background-color: rgb(131, 226, 43);*/
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.parrafo{
+    /*background-color: blueviolet;*/
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.borde{
+    border: white solid; width: 80%; text-align: center;
+    margin-bottom: 5px;
+}
+
+.cajon_item{
+    display: none;
+    width: 80%;
+}
+
+.hide{
+    width: 70%;
+    border: solid rgb(243, 227, 137) 1px;
+    padding: 2px;
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+
+.page{
+    background-color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle{
+
+    background-color: rgba(34,34,34,255)
+    ;
+    height: 120px;
+    text-align: center;
+    margin: 0;
+    color: rgb(216, 214, 205);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
